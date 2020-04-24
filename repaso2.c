@@ -71,6 +71,14 @@ int lenght(char* palabra){
   }
   return contador;
 }
+int length_arr(char arr[]){
+  int contador=0;
+  while(*(arr+contador)!='\0'){
+    contador++;
+  }
+  printf("%d", contador);
+  return 0;
+}
 
 int main(void){
     reverse();
